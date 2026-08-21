@@ -1,0 +1,6 @@
+column,description
+play_id,Identifier for a single play within a game.
+pitch_result,A short description of the outcome of the play that the joint position data describes.
+position,Identifier describing which player position the joint landmark locations are describing.
+frame_timestamp,Timestamp of the corresponding frame of time series data. Each frame within a play should have a unique timestamp.
+joint,"Label and x, y, z global position of a single joint for the labeled person / position. There are 29 joint landmarks that are tracked per frame of time series data."

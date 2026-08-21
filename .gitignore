@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.claude/
+
+# Proprietary source data and prompt -- not for publication
+batter_running_workload.parquet
+batter_running_wide.parquet
+*Questionnaire Instructions.pdf
