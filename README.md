@@ -6,9 +6,9 @@ via zero-lag Butterworth filtering and Statcast definitions. Clustering separate
 from context-driven jogs, so day-to-day decline is scored against the player's own
 effort-weighted baseline instead of the game situation.
 
-**[Interactive dashboard](https://1raync.github.io/MLB-sprintquality-dashboard/figures/readiness_dashboard.html)** &middot; **[Methodology writeup](README.pdf)**
+**[Interactive dashboard](https://1raync.github.io/MLB-SprintQuality-Dashboard/figures/readiness_dashboard.html)** &middot; **[Methodology writeup](README.pdf)**
 
-[![Readiness dashboard](figures/dashboard_screenshot.png)](https://1raync.github.io/MLB-sprintquality-dashboard/figures/readiness_dashboard.html)
+[![Readiness dashboard](figures/dashboard_screenshot.png)](https://1raync.github.io/MLB-SprintQuality-Dashboard/figures/readiness_dashboard.html)
 
 `load_data.py` &rarr; `run_features.py` &rarr; `cluster_runs.py` &rarr; `readiness.py` &rarr; `build_dashboard.py`
 
