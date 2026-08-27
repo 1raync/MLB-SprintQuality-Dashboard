@@ -1,6 +1,6 @@
 # MLB Sprint Quality Analysis
 
-Converts in-game Hawk-Eye tracking (3D markerless motion capture, 30 fps) into
+Converts in-game Hawk-Eye tracking (3D markerless motion capture, 30 Hz) into
 sprint-quality features &mdash; peak speed, burst, and high-speed running distance &mdash;
 via zero-lag Butterworth filtering and Statcast definitions. Clustering separates max-effort sprints
 from context-driven jogs, so day-to-day decline is scored against the player's own
